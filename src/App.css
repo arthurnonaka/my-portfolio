@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: 'SourceCodePro';
+  src: url('../public/fonts/SourceCodePro-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'SourceCodePro', sans-serif;
+}

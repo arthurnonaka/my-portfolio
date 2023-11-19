@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import WorkInProgress from './views/WorkInProgress';
+import AboutMe from './views/AboutMe';
 
 function App() {
   return (
@@ -18,6 +21,12 @@ function App() {
           Learn React
         </a>
       </header>
+      <div>
+        <AboutMe />
+      </div>
+      <div>
+        <WorkInProgress />
+      </div>
     </div>
   );
 }
