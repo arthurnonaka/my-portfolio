@@ -9,7 +9,7 @@ export default function AboutMe() {
       <div className="about-me-title">
         <h1>OI, MEU NOME É ARTHUR, SEJA BEM VINDO(A) 👋</h1>
         <div className="about-me-intro">
-          <p>Atualmente, atuo como desenvolvedor de software em Curitiba, Brasil. Iniciei a minha trajetória em 2020 e, desde então, venho adquirindo experiência em projetos de engenharia, análise de dados (BI) e desenvolvimento de softwares.</p>
+          <p>Atualmente, atuo como desenvolvedor de software em Curitiba-PR. Iniciei a minha trajetória em 2020 e, desde então, venho adquirindo experiência em projetos de engenharia, análise de dados (BI) e desenvolvimento de softwares.</p>
           <p>Gosto de desafios e, no ambiente de desenvolvimento, sou motivado a aprender e aprimorar meus conhecimentos diariamente.</p>
           <p>Estou sempre aberto a novas oportunidades, gosto de conhecer pessoas e projetos.</p>
           <p>Vamos nos conectar!</p>

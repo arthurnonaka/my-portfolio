@@ -3,12 +3,17 @@
     min-height: 100%;
     width: 100vw;
     max-width:100%;
+    background-color: #E5E5E5;
+}
+
+.hero-content {
+    height: 80vh;
+    min-height: 80%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
-    background-color: #E5E5E5;
     letter-spacing: 1px;
     line-height: 1.6;
 }
@@ -30,4 +35,8 @@
 .hero-image {
     border-radius: 100%;
     width: 300px;
+}
+
+.scroll-gif {
+    width: 70px;
 }

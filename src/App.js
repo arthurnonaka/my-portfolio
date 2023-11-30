@@ -4,6 +4,7 @@ import Header from './views/Header';
 import Hero from './views/Hero';
 import AboutMe from './views/AboutMe';
 import WorkInProgress from './views/WorkInProgress';
+import MyProjects from './views/MyProjects';
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
       </div>
       <div>
         <AboutMe />
+      </div>
+      <div>
+        <MyProjects />
       </div>
       <div>
         <WorkInProgress />
