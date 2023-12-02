@@ -1,4 +1,5 @@
 import React from "react";
+import Header from "../components/Header";
 import heroImg from "../images/hero-img.jpeg";
 import "../styles/Hero.css"
 import scrolDown from "../images/scroll-down.gif";
@@ -6,6 +7,9 @@ import scrolDown from "../images/scroll-down.gif";
 export default function Hero() {
   return (
     <div className="hero-view">
+      <header className="header">
+        <Header />
+      </header>
       <div className="hero-content">
         <div className="hero-intro">
           <h1 className="orange">ENGENHEIRO E DESENVOLVEDOR DE SOFTWARE</h1>
