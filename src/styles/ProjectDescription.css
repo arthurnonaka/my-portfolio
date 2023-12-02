@@ -1,0 +1,9 @@
+.project-description {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #BFDDDA;
+    color: #264653;
+    border-radius: 50px;
+}

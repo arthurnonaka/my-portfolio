@@ -4,6 +4,7 @@
     height: 200px;
     border: 9px solid #2A9D8F;
     transition: filter 0.3s;
+    margin: 10px;
 }
 
 .project-img:hover {

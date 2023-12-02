@@ -1,20 +1,16 @@
 import React from "react";
 import "../styles/Project.css";
 
-function Project({ name, imagePath, description, link = "" }) {
-    const getDescription = () => {
-        return description;
-    }
-
-    const getLink = () => {
-        return link;
-    }
-
+function Project({ name, imagePath, description, link = "", onClick }) {
+    const handleProjectClick = () => {
+      onClick({ name, description, link });
+    };
+  
     return (
-        <div>
-            <img className="project-img" src={imagePath} alt={name} data-name={name}/>
-        </div>
-    )
-}
+      <div onClick={handleProjectClick}>
+        <img className="project-img" src={imagePath} alt={name} data-name={name} />
+      </div>
+    );
+  }
 
 export default Project;
