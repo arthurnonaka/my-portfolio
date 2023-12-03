@@ -16,7 +16,7 @@ export default function Hero() {
           <p>Gosto de desenvolver soluções para problemas diversos, utilizando tecnologia <br />
             Atualmente focado no desenvolvimento de software
           </p>
-          <p>Venha conhecer o meu trabalho...</p>
+          <p>Venha conhecer o meu trabalho</p>
         </div>
         <div className="hero-img">
           <img className="hero-image" src={heroImg} alt="hero" />
