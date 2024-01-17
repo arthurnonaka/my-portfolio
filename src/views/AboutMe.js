@@ -1,7 +1,8 @@
 import React from "react";
 import devIconImg from "../images/dev-icon.png";
 import biIconImg from "../images/bi-icon.png";
-import "../styles/AboutMe.css"
+import "../styles/AboutMe.css";
+import { Link } from "react-scroll";
 
 export default function AboutMe() {
   return (
@@ -13,7 +14,9 @@ export default function AboutMe() {
           <p>Gosto de desafios e, no ambiente de desenvolvimento, sou motivado a aprender e aprimorar meus conhecimentos diariamente.</p>
           <p>Estou sempre aberto a novas oportunidades, gosto de conhecer pessoas e projetos.</p>
           <p>Vamos nos conectar!</p>
-          <button className="contact-btn">Contato</button>
+          <Link className="contact-btn" to="contact" smooth={true}>
+            CONTATO
+          </Link>
         </div>
       </div>
       <div className="about-me-table">

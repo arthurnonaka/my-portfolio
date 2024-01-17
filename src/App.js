@@ -1,5 +1,6 @@
 import './App.css';
 import React from 'react';
+import { Element } from 'react-scroll';
 import Hero from './views/Hero';
 import AboutMe from './views/AboutMe';
 import MyProjects from './views/MyProjects';
@@ -7,32 +8,32 @@ import Contact from './views/Contact';
 
 /**
  * TODO LIST
- * Fazer os botões funcionarem: Header, AboutMe, Contact
- * Fazer a rolagem com trigger do scroll, para adequar cada tela
- * Colocar foto real: Hero (cartoon) e Contact
- * Colocar alguma logo: Header e Na aba do navegador
- * Adicionar projetos com link
- * Arrumar projeto para display em mobile
- * Desenvolver feature de idioma: Inglês - Portugues
- * Personalizar backgrounds segundo Mockup Figma
+ * DONE - Fazer os botões funcionarem: Header, AboutMe, Contact
+ * DONE - Adicionar links das redes sociais na tela Contact
+ * TODO - Arrumar projeto para display em mobile
+ * TODO - Adicionar projetos com link
+ * TODO - Colocar foto real: Hero (cartoon) e Contact
+ * TODO - Colocar logo: Header e Na aba do navegador
+ * TODO - Desenvolver feature de idioma: Inglês - Portugues
+ * TODO - Personalizar backgrounds segundo Mockup Figma
  * 
  * @returns 
  */
 function App() {
   return (
     <div className="App">
-      <div>
+      <Element name='hero'>
         <Hero />
-      </div>
-      <div>
+      </Element>
+      <Element name='aboutMe'>
         <AboutMe />
-      </div>
-      <div>
+      </Element>
+      <Element name='myProjects'>
         <MyProjects />
-      </div>
-      <div>
+      </Element>
+      <Element name='contact'>
         <Contact />
-      </div>
+      </Element>
     </div>
   );
 }

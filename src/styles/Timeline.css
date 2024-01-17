@@ -2,3 +2,9 @@
     width: 60px;
     border-radius: 100%;
 }
+
+@media only screen and (max-width: 600px) {
+    .timeline-icon {
+        width: 40px;
+    }
+}

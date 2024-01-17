@@ -27,6 +27,7 @@
 .contact-image {
     width: 300px;
     border-radius: 100%;
+    cursor: pointer;
 }
 
 .social-img {
@@ -37,7 +38,6 @@
 }
 
 .footer {
-    /* margin-top: auto; */
     background-color: #1E3842;
     padding: 1px;
     width: 99vw;

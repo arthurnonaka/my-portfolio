@@ -26,7 +26,6 @@
 }
 
 .about-me-intro {
-    width: 50vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -47,6 +46,11 @@
     padding: 10px 40px;
     margin: 30px;
     font-size: medium;
+}
+
+.contact-btn:hover{
+    color: #264653;
+    cursor: pointer;
 }
 
 h1{
@@ -76,4 +80,26 @@ h3 {
 
 .line {
     border: 1px solid #2646532a;
+}
+
+@media only screen and (max-width: 600px) {
+    .about-me-view{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .about-me-title{
+        width: 70vw;
+    }
+
+    .about-me-title p{
+        width: 70vw;
+    }
+
+    .about-me-table {
+        flex-direction: column;
+        height: 100%;
+    }
 }

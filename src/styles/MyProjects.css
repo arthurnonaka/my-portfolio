@@ -41,3 +41,30 @@
     line-height: 1.6;
     height: 30vh;
 }
+
+@media only screen and (max-width: 600px) {
+    .projects-view{
+        padding-top: 50px;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .projects-content{
+        flex-direction: column;
+    }
+
+    .projects-list{
+        flex-direction: row;
+    }
+
+    .projects-timeline{
+        width: 80vw;
+        align-self: center;
+    }
+
+    .projects-displayer{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 100vw;
+    }
+}

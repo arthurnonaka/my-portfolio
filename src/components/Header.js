@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Header.css";
 import heroImg from "../images/hero-img.jpeg";
+import { Link } from "react-scroll";
 
 export default function Header() {
   return (
@@ -9,10 +10,15 @@ export default function Header() {
         <img className="header-image" src={heroImg} alt="hero" />
       </div>
       <div className="header-buttons">
-        <button className="header-button">HOME</button>
-        <button className="header-button">SOBRE MIM</button>
-        <button className="header-button">PROJETOS</button>
-        <button className="header-button">CONTATO</button>
+        <Link className="header-button" to="aboutMe" smooth={true}>
+          SOBRE MIM
+        </Link>
+        <Link className="header-button" to="myProjects" smooth={true}>
+          PROJETOS
+        </Link>
+        <Link className="header-button" to="contact" smooth={true}>
+          CONTATO
+        </Link>
       </div>
     </div>
   )

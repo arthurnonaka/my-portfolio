@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
-import heroImg from "../images/hero-img.jpeg";
+import heroImg from "../images/photo-me.jpeg";
 import "../styles/Hero.css"
 import scrolDown from "../images/scroll-down.gif";
 
@@ -12,7 +12,7 @@ export default function Hero() {
       </header>
       <div className="hero-content">
         <div className="hero-intro">
-          <h1 className="orange">ENGENHEIRO E DESENVOLVEDOR DE SOFTWARE</h1>
+          <h1 className="hero-title">ENGENHEIRO E DESENVOLVEDOR DE SOFTWARE</h1>
           <p>Gosto de desenvolver soluções para problemas diversos, utilizando tecnologia <br />
             Atualmente focado no desenvolvimento de software
           </p>
