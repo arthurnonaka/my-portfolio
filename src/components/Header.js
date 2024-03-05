@@ -1,24 +1,20 @@
 import React from "react";
 import "../styles/Header.css";
 import heroImg from "../images/hero-img.jpeg";
-import { Link } from "react-scroll";
+import DefaultMenu from "./DefaultMenu";
+import MobileMenu from "./MobileMenu";
 
 export default function Header() {
+  const isMobile = window.innerWidth <= 600;
   return (
     <div className="header-view">
       <div className="header-logo">
         <img className="header-image" src={heroImg} alt="hero" />
       </div>
-      <div className="header-buttons">
-        <Link className="header-button" to="aboutMe" smooth={true}>
-          SOBRE MIM
-        </Link>
-        <Link className="header-button" to="myProjects" smooth={true}>
-          PROJETOS
-        </Link>
-        <Link className="header-button" to="contact" smooth={true}>
-          CONTATO
-        </Link>
+      <div className="menu">
+        {isMobile ? (<MobileMenu />) :
+        (<DefaultMenu />)
+        }
       </div>
     </div>
   )
